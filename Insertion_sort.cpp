@@ -10,12 +10,11 @@ void insertionsort(int arr[],int n){
             arr[j-1]=temp;
         }
         else{
-            break; // No need to continue if the current element is in the correct position
-        }
+            break; }
     }
 }
 }
-int main(){
+int main() {
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
     int n = sizeof(arr) / sizeof(arr[0]);
     insertionsort(arr, n);
